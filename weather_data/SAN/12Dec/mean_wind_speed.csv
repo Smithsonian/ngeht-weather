@@ -3,3 +3,4 @@
 # Station: SAN                                                                                     #
 # Columns are: year    day     windspeed (m/s)                                                     #
 ####################################################################################################
+year,day,windspeed

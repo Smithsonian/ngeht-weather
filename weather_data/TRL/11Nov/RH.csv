@@ -3,3 +3,4 @@
 # Station: TRL                                                                                     #
 # Columns are: year    day     segment         RH (percent)                                        #
 ####################################################################################################
+year,day,segment,RH

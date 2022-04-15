@@ -3,3 +3,4 @@
 # Station: JELM                                                                                    #
 # Columns are: year    day     windspeed (m/s)                                                     #
 ####################################################################################################
+year,day,windspeed

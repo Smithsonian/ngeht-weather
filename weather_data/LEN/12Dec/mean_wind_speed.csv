@@ -3,3 +3,4 @@
 # Station: LEN                                                                                     #
 # Columns are: year    day     windspeed (m/s)                                                     #
 ####################################################################################################
+year,day,windspeed

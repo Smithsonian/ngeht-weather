@@ -3,3 +3,4 @@
 # Station: SGO                                                                                     #
 # Columns are: year    day     windspeed (m/s)                                                     #
 ####################################################################################################
+year,day,windspeed

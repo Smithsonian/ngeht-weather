@@ -3,3 +3,4 @@
 # Station: HES                                                                                     #
 # Columns are: year    day     segment         windspeed (m/s)                                     #
 ####################################################################################################
+year,day,segment,windspeed
