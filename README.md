@@ -1,7 +1,8 @@
 # Weather data used by ngEHT utilities.
 
 Climatological inputs were compiled from
-NASA MERRA-2 reanalysis data for the period inst3_3d_asm_Np.
+NASA MERRA-2 reanalysis data for the period inst3_3d_asm_Np.[date_range] where
+[date_range] = 20090101 to 20190101 (10 years)
 
 MERRA references:
 * M. M. Rienecker et al. (2011), MERRA: NASA’s Modern-Era Retrospective
