@@ -1,6 +1,6 @@
 ####################################################################################################
 # Month: 11Nov                                                                                     #
 # Station: BGK                                                                                     #
-# Columns are: year    day     windspeed (m/s)                                                     #
+# Columns are: year    month   day     windspeed (m/s)                                             #
 ####################################################################################################
-year,day,windspeed
+year,month,day,windspeed

@@ -1,6 +1,6 @@
 ####################################################################################################
 # Month: 12Dec                                                                                     #
 # Station: OVRO                                                                                    #
-# Columns are: year    day     segment         RH (percent)                                        #
+# Columns are: year    month   day     segment         RH (percent)                                #
 ####################################################################################################
-year,day,segment,RH
+year,month,day,segment,RH

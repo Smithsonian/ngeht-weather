@@ -1,6 +1,6 @@
 ####################################################################################################
 # Month: 11Nov                                                                                     #
 # Station: OVRO                                                                                    #
-# Columns are: year    day     segment         windspeed (m/s)                                     #
+# Columns are: year    month   day     segment         windspeed (m/s)                             #
 ####################################################################################################
-year,day,segment,windspeed
+year,month,day,segment,windspeed
