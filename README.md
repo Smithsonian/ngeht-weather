@@ -1,5 +1,7 @@
 # Weather data used by ngEHT utilities.
 
+This data is formatted for use by the [ngEHT utilities library](https://github.com/Smithsonian/ngeht-util).
+
 Climatological inputs were compiled from
 NASA MERRA-2 reanalysis data for the period inst3_3d_asm_Np.[date_range] where
 [date_range] = 20090101 to 20190101 (10 years)
