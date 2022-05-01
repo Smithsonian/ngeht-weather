@@ -79,6 +79,32 @@ months = ['01Jan','02Feb','03Mar','04Apr','05May','06Jun','07Jul','08Aug','09Sep
 monthnums = [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0]
 stations = np.unique(np.array(stationnames))
 
+RH_year_num_map = {'1': '2001',
+                   '2': '2002',
+                   '3': '2003',
+                   '4': '2004',
+                   '5': '2005',
+                   '6': '2006',
+                   '7': '2007',
+                   '8': '2008',
+                   '9': '2009',
+                   '10':'2010',
+                   '11':'2011',
+                   '12':'2012',
+                   '13':'2013',
+                   '14':'2014',
+                   '15':'2015',
+                   '16':'2016',
+                   '17':'2017',
+                   '18':'2018',
+                   '19':'2019',
+                   '20':'2020',
+                   '21':'2021',
+                   '22':'2022',
+                   '23':'2023',
+                   '24':'2024',
+                   '25':'2025',}
+
 exceptions = np.array(['PV','PDB'])
 replacements = np.array(['IRAM','NOEMA'])
 
@@ -456,7 +482,7 @@ for imonth, month in enumerate(months):
             # table
             for i in range(len(RH)):
                 strhere = ''
-                strhere += str(int(years[i])) + ','
+                strhere += RH_year_num_map[str(int(years[i]))] + ','
                 strhere += month[0:2] + ','
                 strhere += str(int(days[i])) + ','
                 strhere += str(int(segments[i])) + ','
@@ -512,7 +538,7 @@ for imonth, month in enumerate(months):
             # table
             for i in range(len(RHlist)):
                 strhere = ''
-                strhere += str(int(yearlist[i])) + ','
+                strhere += RH_year_num_map[str(int(yearlist[i]))] + ','
                 strhere += month[0:2] + ','
                 strhere += str(int(daylist[i])) + ','
                 strhere += str(np.round(RHlist[i],8)) + '\n'
