@@ -9,6 +9,8 @@ basedir = './'
 
 monthlabs = ['01Jan','02Feb','03Mar','04Apr','05May','06Jun','07Jul','08Aug','09Sep','10Oct','11Nov','12Dec']
 monthnums = [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0]
+monthnams = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+monthnumstrs = ['01','02','03','04','05','06','07','08','09','10','11','12']
 
 RH_year_num_map = {'1': '2001',
                    '2': '2002',
@@ -169,7 +171,7 @@ for stationhere in stationlist:
         Pbaselist = list()
         for y in ys:
             for d in ds:
-                indhere = ((years == y) & (days == d))
+                indhere = ((years == y) & (days == d) & (months == monthnumstrs[imonth]))
                 if (indhere.sum() > 0):
                     yearlist.append(y)
                     daylist.append(d)
@@ -252,7 +254,7 @@ for stationhere in stationlist:
         Tbaselist = list()
         for y in ys:
             for d in ds:
-                indhere = ((years == y) & (days == d))
+                indhere = ((years == y) & (days == d) & (months == monthnumstrs[imonth]))
                 if (indhere.sum() > 0):
                     yearlist.append(y)
                     daylist.append(d)
@@ -335,7 +337,7 @@ for stationhere in stationlist:
         PWVlist = list()
         for y in ys:
             for d in ds:
-                indhere = ((years == y) & (days == d))
+                indhere = ((years == y) & (days == d) & (months == monthnumstrs[imonth]))
                 if (indhere.sum() > 0):
                     yearlist.append(y)
                     daylist.append(d)
